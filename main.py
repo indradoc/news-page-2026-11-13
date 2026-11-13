@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # SPDX-License-Identifier: MIT
-"""Writes the entry picture to /output/entry.png (a JPEG by content, per the rules)."""
+"""Entrypoint: writes the entry picture to /output/entry.png (a JPEG by content, per the rules)."""
 import os, shutil
 out = os.environ.get("MAKEFUN_OUTPUT_DIR", "/output")
 os.makedirs(out, exist_ok=True)
